@@ -11,10 +11,10 @@ Para utilizar Node.js en WSL (Windows Subsystem for Linux), sigue estos pasos:
     ```
 3.Instala curl para poder descargar e instalar Node.js: 
    ```shell  
-   sudo apt install curl
+    sudo apt install curl
    ```
 4.Descarga e instala Node.js utilizando curl y apt:    
   ```shell    
-  curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt install -y nodejs
+    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt install -y nodejs
   ```
 
